@@ -1,0 +1,18 @@
+html, body {
+    font-family: 'Work Sans', sans-serif;
+}
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6,
+.display-1, .display-2, .display-3,
+.display-4, .display-5, .display-6, .navbar-brand {
+    font-family: 'Playfair Display', serif; 
+}
+
+.banner {
+    background-image:  
+        linear-gradient(rgba(35,46,58,0.6), rgba(35,46,58,1)),
+    url("../images/banner.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
