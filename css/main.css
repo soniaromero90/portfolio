@@ -10,7 +10,7 @@ h1, h2, h3, h4, h5, h6,
 
 .banner {
     background-image:  
-        linear-gradient(rgba(35,46,58,0.6), rgba(35,46,58,1)),
+        linear-gradient(rgba(33,37,41,0.7), rgba(33,37,41,0.7)),
     url("../images/banner.jpg");
     background-position: center;
     background-size: cover;
