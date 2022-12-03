@@ -264,12 +264,18 @@
             </div>
             <div class="col-sm-6">
 
-              <picture>
-                <source srcset=“images/sonia-romero-1.jpg” media=“(min-width: 577px)” />
-                
-                <source srcset=“images/sonia-romero-1_mobile.jpg” media=“(max-width: 576px)” />
-                
-                <img class="img-fluid" src="images/sonia-romero-1.jpg" alt=“Photo of Sonia Romero”>
+              <img 
+                  srcset="images/sonia-romero-1_318x204.jpg 318w,
+                          images/sonia-romero-1_947x652.jpg 947w"
+
+                  sizes="(max-width: 319px) 318px,
+                          (max-width: 947px) 947px"
+
+                  src="images/sonia-romero-1_947x652.jpg"
+
+                  alt="Photo of Sonia"
+                  
+                  class="img-fluid">
 
              </picture>
 
