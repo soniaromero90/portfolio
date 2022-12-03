@@ -60,7 +60,16 @@
         </div>
 
         <div>
-            <img class="img-fluid mb-5" src="images/sonia-romero-2.jpg" alt="Photo of Sonia Romero">
+          <picture>
+            <source srcset=“images/sonia-romero-2” media=“(min-width: 577px)” />
+            
+            <source srcset=“images/sonia-romero-2_mobile.jpg” media=“(max-width: 576px)” />
+            
+            <img class="img-fluid mb-5" src="images/sonia-romero-2.jpg" alt=“Photo of Sonia Romero”>
+
+         </picture>
+
+
         </div>
 
         <div class="container">
