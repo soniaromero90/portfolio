@@ -17,16 +17,24 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 
+    <!-- Hover CSS library-->
+    <link rel="stylesheet" href="css/hover.css">
+
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/main.css">
+
   </head>
   <body>
+
+    <!-- The header section contains a navigation menu and a hero image section -->
 
     <header>
       <div class="bg-dark">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
           
           <div class="container-xl">
+
+            <!-- The navigation menu collapses on mobile and expands in desktop size -->
             
             <a class="navbar-brand" href="index.html">Sonia Romero</a>
             <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -53,206 +61,221 @@
       </div>
 
 
-      <!-- Skip links -->
+      <!-- Skip links for accesibility. This will not show on the front end of the page -->
+
       <a href="#banner" class="skip">Skip to banner</a>
       <a href="#projects" class="skip">Skip to projects</a>
       <a href="#banner" class="skip">Skip to banner</a>
+
+      <!-- Hero Section includes a background image, title and a button -->
+
+      <section class="banner p-5" id="banner">
+        <div class="container-xl text-light text-center pt-5 pb-5">
+          <h1 class="display-4 mb-5">Let me help you <em>capture</em> your story to <em>share it</em> with the <em>world</em></h1>
+
+          <a role="button" class="btn btn-outline-primary text-light border-light rounded-0 text-uppercase" href="contact.html" aria-role="Go to the contact page to work with me">Work with me</a>
+          
+        </div>
+      </section>
 
     </header>
 
 
     <main>
-      <section class="banner p-5" id="banner">
-        <div class="container-xl text-light text-center pt-5 pb-5">
-          <h1 class="display-4 mb-5">Let me help you <em>capture</em> your story to <em>share it</em> with the <em>world</em></h1>
-
-          <a role="button" class="btn btn-outline-primary text-light border-light rounded-0 text-uppercase" href="contact.html">Work with me</a>
-          
-        </div>
-      </section>
+      
+      <!-- Previous Projects section has a dark background colour, a title and a grid with images. This section will be displayed vertically on mobile -->
 
       <section class="Projects bg-dark text-light" id="projects">
         <div class="container text-center">
           <h2 class="text-center pt-5 mb-5">Previous Projects</h2>
 
-          <!-- here are the portfolio images -->
+          <!-- This will show the gallery with portfolio images  -->
 
           <div class="gallery container mb-5">
 
-            <div class="row gx-0">
+            <a href="portfolio.html">
 
-              <div class="col-sm-4">
+              <div class="row gx-0">
 
-                <img 
-                  srcset="images/gallery1_159x159.jpg 159w,
-                          images/gallery1_536x536.jpg 536w"
+                <div class="col-sm-4">
 
-                  sizes="(max-width: 159px) 159px,
-                          (max-width: 536px) 536px"
+                  <img 
+                    srcset="images/gallery1_159x159.jpg 159w,
+                            images/gallery1_536x536.jpg 536w"
 
-                  src="images/gallery1_536x536.jpg"
+                    sizes="(max-width: 159px) 159px,
+                            (max-width: 536px) 536px"
 
-                  alt="Photo of staircase in Algonquin College"
-                  
-                  class="img-fluid">
+                    src="images/gallery1_536x536.jpg"
 
-              </div>
+                    alt="Photo of staircase in Algonquin College"
+                    
+                    class="img-fluid hvr-pulse-shrink">
 
-              <div class="col-sm-4">
+                </div>
 
-                <img 
-                  srcset="images/gallery2_159x159.jpg 159w,
-                          images/gallery2_536x536.jpg 536w"
+                <div class="col-sm-4">
 
-                  sizes="(max-width: 159px) 159px,
-                          (max-width: 536px) 536px"
+                  <img 
+                    srcset="images/gallery2_159x159.jpg 159w,
+                            images/gallery2_536x536.jpg 536w"
 
-                  src="images/gallery2_536x536.jpg"
+                    sizes="(max-width: 159px) 159px,
+                            (max-width: 536px) 536px"
 
-                  alt="Photo of building at Algonquin College"
-                  
-                  class="img-fluid">
+                    src="images/gallery2_536x536.jpg"
 
-
-              </div>
-              
-              <div class="col-sm-4">
-
-                <img 
-                  srcset="images/gallery3_159x159.jpg 159w,
-                          images/gallery3_536x536.jpg 536w"
-
-                  sizes="(max-width: 159px) 159px,
-                          (max-width: 536px) 536px"
-
-                  src="images/gallery3_536x536.jpg"
-
-                  alt="Photo of father and son near the lake"
-                  
-                  class="img-fluid">
+                    alt="Photo of building at Algonquin College"
+                    
+                    class="img-fluid hvr-pulse-shrink">
 
 
-              </div>
-
-              <div class="col-sm-4">
-
-                <img 
-                srcset="images/gallery4_159x159.jpg 159w,
-                        images/gallery4_536x536.jpg 536w"
-
-                sizes="(max-width: 159px) 159px,
-                        (max-width: 536px) 536px"
-
-                src="images/gallery4_536x536.jpg"
-
-                alt="Photo of library window at Algonquin College"
+                </div>
                 
-                class="img-fluid">
+                <div class="col-sm-4">
 
-                
+                  <img 
+                    srcset="images/gallery3_159x159.jpg 159w,
+                            images/gallery3_536x536.jpg 536w"
 
-              </div>
-              <div class="col-sm-4">
+                    sizes="(max-width: 159px) 159px,
+                            (max-width: 536px) 536px"
 
-                <img 
-                  srcset="images/gallery5_159x159.jpg 159w,
-                          images/gallery5_536x536.jpg 536w"
+                    src="images/gallery3_536x536.jpg"
 
-                  sizes="(max-width: 159px) 159px,
-                          (max-width: 536px) 536px"
+                    alt="Photo of father and son near the lake"
+                    
+                    class="img-fluid hvr-pulse-shrink">
 
-                  src="images/gallery5_536x536.jpg"
 
-                  alt="Photo of a woman in a staircase"
-                  
-                  class="img-fluid">
+                </div>
 
-                
-              </div>
+                <div class="col-sm-4">
 
-              <div class="col-sm-4">
-
-                <img 
-                  srcset="images/gallery6_159x159.jpg 159w,
-                          images/gallery6_536x536.jpg 536w"
+                  <img 
+                  srcset="images/gallery4_159x159.jpg 159w,
+                          images/gallery4_536x536.jpg 536w"
 
                   sizes="(max-width: 159px) 159px,
                           (max-width: 536px) 536px"
 
-                  src="images/gallery6_536x536.jpg"
+                  src="images/gallery4_536x536.jpg"
 
-                  alt="Photo of a father and son in black and white"
+                  alt="Photo of library window at Algonquin College"
                   
-                  class="img-fluid">
-                
-                
+                  class="img-fluid hvr-pulse-shrink">
 
+                  
+
+                </div>
+                <div class="col-sm-4">
+
+                  <img 
+                    srcset="images/gallery5_159x159.jpg 159w,
+                            images/gallery5_536x536.jpg 536w"
+
+                    sizes="(max-width: 159px) 159px,
+                            (max-width: 536px) 536px"
+
+                    src="images/gallery5_536x536.jpg"
+
+                    alt="Photo of a woman in a staircase"
+                    
+                    class="img-fluid hvr-pulse-shrink">
+
+                  
+                </div>
+
+                <div class="col-sm-4">
+                  
+
+                  <img 
+                    srcset="images/gallery6_159x159.jpg 159w,
+                            images/gallery6_536x536.jpg 536w"
+
+                    sizes="(max-width: 159px) 159px,
+                            (max-width: 536px) 536px"
+
+                    src="images/gallery6_536x536.jpg"
+
+                    alt="Photo of a father and son in black and white"
+                    
+                    class="img-fluid hvr-pulse-shrink">
+                  
+                  
+
+                </div>
+
+                <div class="col-sm-4">
+
+                  <img 
+                    srcset="images/gallery7_159x159.jpg 159w,
+                            images/gallery7_536x536.jpg 536w"
+
+                    sizes="(max-width: 159px) 159px,
+                            (max-width: 536px) 536px"
+
+                    src="images/gallery7_536x536.jpg"
+
+                    alt="Photo of a lake"
+                    
+                    class="img-fluid hvr-pulse-shrink">
+                  
+
+                </div>
+
+                <div class="col-sm-4">
+
+                  <img 
+                    srcset="images/gallery8_159x159.jpg 159w,
+                            images/gallery8_536x536.jpg 536w"
+
+                    sizes="(max-width: 159px) 159px,
+                            (max-width: 536px) 536px"
+
+                    src="images/gallery8_536x536.jpg"
+
+                    alt="Photo of Algonquin College courtyard"
+                    
+                    class="img-fluid hvr-pulse-shrink">
+
+
+                </div>
+
+                <div class="col-sm-4">
+                  <img 
+                    srcset="images/gallery9_159x159.jpg 159w,
+                            images/gallery9_536x536.jpg 536w"
+
+                    sizes="(max-width: 159px) 159px,
+                            (max-width: 536px) 536px"
+
+                    src="images/gallery9_536x536.jpg"
+
+                    alt="Photo of woman posing"
+                    
+                    class="img-fluid hvr-pulse-shrink">
+                  
+
+                </div>
+
+                
               </div>
 
-              <div class="col-sm-4">
-
-                <img 
-                  srcset="images/gallery7_159x159.jpg 159w,
-                          images/gallery7_536x536.jpg 536w"
-
-                  sizes="(max-width: 159px) 159px,
-                          (max-width: 536px) 536px"
-
-                  src="images/gallery7_536x536.jpg"
-
-                  alt="Photo of a lake"
-                  
-                  class="img-fluid">
-                
-
-              </div>
-
-              <div class="col-sm-4">
-
-                <img 
-                  srcset="images/gallery8_159x159.jpg 159w,
-                          images/gallery8_536x536.jpg 536w"
-
-                  sizes="(max-width: 159px) 159px,
-                          (max-width: 536px) 536px"
-
-                  src="images/gallery8_536x536.jpg"
-
-                  alt="Photo of Algonquin College courtyard"
-                  
-                  class="img-fluid">
-
-
-              </div>
-
-              <div class="col-sm-4">
-                <img 
-                  srcset="images/gallery9_159x159.jpg 159w,
-                          images/gallery9_536x536.jpg 536w"
-
-                  sizes="(max-width: 159px) 159px,
-                          (max-width: 536px) 536px"
-
-                  src="images/gallery9_536x536.jpg"
-
-                  alt="Photo of woman posing"
-                  
-                  class="img-fluid">
-                
-
-              </div>
-
-              
-            </div>
+            </a>
 
 
           </div>
 
-          <a role="button" class="btn btn-outline-primary text-light border-light rounded-0 mb-5 text-uppercase" href="portfolio.html">See portfolio</a>
+          <a role="button" class="btn btn-outline-primary text-light border-light rounded-0 mb-5 text-uppercase" href="portfolio.html" aria-role="Go to this page see the complete portfolio">See portfolio</a>
+
+          
 
         </div>
 
       </section>
+
+      <!-- The about section inside the homepage has a light background. It shows a picture of Sonia and a little description with a button to go to the About page. -->
 
       <section class="about pt-5 pb-5" id="about">
 
@@ -266,7 +289,7 @@
                 Photographer and video producer/editor. Currently studying the Interactive Media Design program at Algonquin College.
               </p>
 
-              <a role="button" class="btn btn-secondary text-uppercase rounded-0 mb-3" href="about.html">
+              <a role="button" class="btn btn-secondary text-uppercase rounded-0 mb-3" href="about.html" aria-label="Go to the about page to learn more about me">
                 My Story
               </a>
 
@@ -295,6 +318,8 @@
       </section>
 
     </main>
+
+<!-- The footer contains links to social media on one side and a copyright tagline on the other side.-->
 
 <footer class="bg-dark text-light">
   <div class="footer-content container pt-3">
