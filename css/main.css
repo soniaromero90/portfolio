@@ -8,15 +8,6 @@ h1, h2, h3, h4, h5, h6,
     font-family: 'Playfair Display', serif; 
 }
 
-.banner {
-    background-image:  
-        linear-gradient(rgba(33,37,41,0.7), rgba(33,37,41,0.7)),
-    url("../images/banner.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
 .skip {
     position: absolute;
     left: -10000px;
@@ -25,3 +16,41 @@ h1, h2, h3, h4, h5, h6,
     height: 1px;
     overflow: hidden;
   }
+
+
+
+.navbar, footer {
+    background-color: #232E3A;
+  }
+
+  .navbar-toggler{
+    color: #E4E4E4;
+  }
+
+.banner {
+    background-image:  
+        linear-gradient(rgba(35,46,58,0.3), rgba(35,46,58,1)),
+    url("../images/banner.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.banner h1 {
+    color: #E4E4E4;
+
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+
+.banner a:hover, .projects a:hover, .pink-button {
+    background-color: #F16E71;
+
+}
+
+
+.projects {
+    background-color: #232E3A;
+}
+
