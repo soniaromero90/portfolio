@@ -1,12 +1,20 @@
+/* Body Text font: Work Sans. Changes the Bootstrap font to Work Sans*/
+
 html, body {
     font-family: 'Work Sans', sans-serif;
 }
+
+/* Heading Text font: Playfair Display. Changes the Bootstrap font to Playfair Display*/
+
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6,
 .display-1, .display-2, .display-3,
 .display-4, .display-5, .display-6, .navbar-brand {
     font-family: 'Playfair Display', serif; 
 }
+
+/* Hides the skip links for the front user */
+
 
 .skip {
     position: absolute;
@@ -17,15 +25,15 @@ h1, h2, h3, h4, h5, h6,
     overflow: hidden;
   }
 
+/*  Changes the Bootstrap background colour */
 
 
-.navbar, footer, .portfolio {
+.navbar, footer, .portfolio, .projects {
     background-color: #232E3A;
   }
 
-  .navbar-toggler{
-    color: #E4E4E4;
-  }
+
+/* Adds the hero image to the banner in the homepage */
 
 .banner {
     background-image:  
@@ -36,6 +44,8 @@ h1, h2, h3, h4, h5, h6,
     background-repeat: no-repeat;
 }
 
+/*  Changes the colour and size of the text inside the hero image in the homepage */
+
 .banner h1 {
     color: #E4E4E4;
 
@@ -43,14 +53,10 @@ h1, h2, h3, h4, h5, h6,
     margin: 0 auto;
 }
 
+/* Changes the style of the primary and secondary button when hover */
+
 
 .banner a:hover, .projects a:hover, .pink-button {
     background-color: #F16E71;
 
 }
-
-
-.projects {
-    background-color: #232E3A;
-}
-
